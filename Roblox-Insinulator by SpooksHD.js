@@ -30,7 +30,15 @@ function repIcon(img, yi) {
         'https://t4.rbxcdn.com/66e3e636acb3adc7a229cc5dc180cc93',
         'https://t7.rbxcdn.com/4d6c6ab7f95973b35bb2944be91c00ba',
         'https://t4.rbxcdn.com/2efcc5665d7b185b31d4cf7dda7e3a9e',
-        'https://t0.rbxcdn.com/ba954640ee3ea6c141398d4926e57ed1'
+        'https://t0.rbxcdn.com/ba954640ee3ea6c141398d4926e57ed1',
+        "https://t4.rbxcdn.com/b45e23a3b1717e6c9151449055369e11",
+        "https://t2.rbxcdn.com/5a36c6061d868c8c6364698f859cc439",
+        "https://t7.rbxcdn.com/53ff494d0f999c60e3a4eb5ea95f57d8",
+        "https://t3.rbxcdn.com/9042731081c9c5c24e1ba3cf15884eac",
+        "https://t1.rbxcdn.com/79139b52c7c4d62b415deb3f073294a3",
+        "https://t2.rbxcdn.com/90716b96516f84589590fbe793c6207e",
+        "https://t5.rbxcdn.com/1c2ade21b2e3c978f5122ea2a4dad4a7",
+        "https://t6.rbxcdn.com/1679edf78ef4b3c3bf4123846f118651"
     ];
     for (var ii = 0; ii < defaultIcons.length; ii++) {
         if (img.src === defaultIcons[ii]) {
@@ -83,7 +91,7 @@ function repIcon(img, yi) {
                     var div = gp[bb].getElementsByTagName('div')[0];
                     var ad = div.getElementsByTagName('a')[0];
                     var img = ad.getElementsByTagName('img')[0];
-                    repIcon(gp[bb], yourImage);
+                    repIcon(img, yourImage);
                 }
             }
         }
